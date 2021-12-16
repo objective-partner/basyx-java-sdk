@@ -21,14 +21,7 @@ import org.eclipse.basyx.submodel.metamodel.api.identifier.IIdentifier;
  * @author schnicke
  *
  */
-/**
- * @author ebuitrago
- *
- */
-/**
- * @author ebuitrago
- *
- */
+
 public interface IAASTaggedDirectory extends IAASRegistry {
 	public void register(TaggedAASDescriptor descriptor);
 
