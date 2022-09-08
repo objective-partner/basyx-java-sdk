@@ -5,7 +5,7 @@
 
 	<groupId>org.eclipse.basyx</groupId>
 	<artifactId>basyx.sdk</artifactId>
-	<version>1.2.0-SNAPSHOT</version>
+	<version>1.2.0-RC1</version>
 	<name>BaSyx SDK</name>
 	<description>BaSyx Software Development Kit</description>
 	<url>https://www.eclipse.org/basyx/</url>
@@ -34,12 +34,11 @@
 	</scm>
 
 	<distributionManagement>
-		<repository>
-			<id>github</id>
-			<name>GitHub Eclipse BaSyx Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/eclipse-basyx/basyx-java-sdk</url>
-		</repository>
-	</distributionManagement>
+                <repository>
+                        <id>maven-github-hosted</id>
+                        <url>https://nexus.internal.objective-partner.net/repository/maven-github-hosted/</url>
+                </repository>
+        </distributionManagement>
 
 	<packaging>jar</packaging>
 
